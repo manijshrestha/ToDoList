@@ -1,6 +1,6 @@
 package com.manijshrestha.todolist.ui
 
-import com.manijshrestha.todolist.model.Task
+import com.manijshrestha.todolist.data.Task
 
 class TaskAdapter(var tasks: List<Task>) : android.support.v7.widget.RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
 

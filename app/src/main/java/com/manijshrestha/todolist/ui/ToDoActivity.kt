@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView
 import android.widget.Button
 import android.widget.EditText
 import com.manijshrestha.todolist.R
-import com.manijshrestha.todolist.model.Task
+import com.manijshrestha.todolist.data.Task
 import dagger.android.AndroidInjection
 import javax.inject.Inject
 

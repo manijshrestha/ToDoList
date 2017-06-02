@@ -35,6 +35,10 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$rootProject.versions.dagger"
     kapt "com.google.dagger:dagger-compiler:$rootProject.versions.dagger"
 
+    //Room
+    compile "android.arch.persistence.room:runtime:$rootProject.versions.arch_comp"
+    kapt "android.arch.persistence.room:compiler:$rootProject.versions.arch_comp"
+
     testCompile 'junit:junit:4.12'
 
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
