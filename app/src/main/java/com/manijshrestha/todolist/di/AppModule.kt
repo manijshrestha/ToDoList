@@ -11,7 +11,7 @@ import dagger.Provides
     @Provides fun providesAppContext() = context
 
     @Provides fun providesAppDatabase(context: Context): AppDatabase =
-            Room.databaseBuilder(context, AppDatabase::class.java, "my-todo-db").allowMainThreadQueries().build()
+            Room.databaseBuilder(context, AppDatabase::class.java, "my-todo-db").build()
 
     @Provides fun providesToDoDao(database: AppDatabase) = database.taskDao()
 }
