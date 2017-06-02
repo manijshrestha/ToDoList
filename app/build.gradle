@@ -35,8 +35,12 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$rootProject.versions.dagger"
     kapt "com.google.dagger:dagger-compiler:$rootProject.versions.dagger"
 
+    compile "io.reactivex.rxjava2:rxjava:2.1.0"
+    compile "io.reactivex.rxjava2:rxandroid:2.0.1"
+
     //Room
     compile "android.arch.persistence.room:runtime:$rootProject.versions.arch_comp"
+    compile "android.arch.persistence.room:rxjava2:$rootProject.versions.arch_comp"
     kapt "android.arch.persistence.room:compiler:$rootProject.versions.arch_comp"
 
     testCompile 'junit:junit:4.12'
